@@ -6,6 +6,8 @@
 
 High-performance Python bindings for KmBoxNet, written in Rust.
 
+硬件请见官网：![https://www.kmbox.top/](https://www.kmbox.top/)
+
 ## 功能特性 (Features)
 
 *   🚀 **高性能**: 核心通讯逻辑由 Rust 实现，极低延迟。
