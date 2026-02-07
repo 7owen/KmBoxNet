@@ -1,0 +1,12 @@
+[project]
+name = "examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "kmbox-net",
+]
+
+[tool.uv.sources]
+kmbox-net = { path = "../pylib/kmbox_net-1.0.0-cp39-abi3-macosx_11_0_arm64.whl" }

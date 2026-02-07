@@ -1,0 +1,15 @@
+[package]
+name = "kmbox_net"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "kmbox_net"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+rand = "0.8"
+pyo3 = { version = "0.21", features = ["abi3-py39", "generate-import-lib", "multiple-pymethods"] }
+
+[features]
+extension-module = ["pyo3/extension-module"]
