@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "kmbox_net-rust"
-version = "1.0.0"
+version = "1.0.1"
 description = "Python bindings for KmBox Net"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -13,6 +13,11 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
+
+[project.urls]
+Homepage = "https://github.com/7owen/KmBoxNet"
+Repository = "https://github.com/7owen/KmBoxNet"
+"Bug Tracker" = "https://github.com/7owen/KmBoxNet/issues"
 
 [tool.maturin]
 features = ["extension-module"]

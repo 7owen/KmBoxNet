@@ -1,6 +1,6 @@
 # KmBoxNet
 
-[![PyPI](https://img.shields.io/pypi/v/kmbox-net)](https://pypi.org/project/kmbox-net/)
+[![PyPI](https://img.shields.io/pypi/v/kmbox-net-rust)](https://pypi.org/project/kmbox-net-rust/)
 
 高性能的 KmBoxNet (网络版) Python 绑定库，基于 Rust 开发。
 
@@ -20,7 +20,7 @@ High-performance Python bindings for KmBoxNet, written in Rust.
 使用 pip 安装：
 
 ```bash
-pip install kmbox-net
+pip install kmbox-net-rust
 ```
 
 *注意：在代码中导入时请使用 `import kmbox_net`。*
