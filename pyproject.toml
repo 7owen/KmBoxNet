@@ -3,7 +3,7 @@ requires = ["maturin>=1.5,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "kmbox_net"
+name = "kmbox_net-rust"
 version = "0.1.0"
 requires-python = ">=3.9"
 classifiers = [
